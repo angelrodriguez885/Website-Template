@@ -10,18 +10,91 @@ header {
 a {
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-style: solid;
     border-color: gray;
+    
+   
+
 }
 
 .header-links {
-    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
     display: flex;
     background-color: #333;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    gap: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    gap: 15px;
+    
 }
 
+.parallax1 {
+    background-image: url('bg-1 copy.jpg');
+    background-attachment: fixed; /* This creates the parallax effect */
+    background-size: cover;
+    color: #fff; /* Text color for contrast */
+    text-align: center;
+    height: 50vh;
+    padding: 100px;
+}
+
+.parallax1 .top-text {
+font-size: xx-large;
+}
+
+.parallax1 .bottom-text {
+    font-size: x-large;
+}
+
+.parallax2 {
+        background-image: url('bg-2 copy.jpg');
+        background-attachment: fixed; /* This creates the parallax effect */
+        background-size: cover;
+        color: #fff; /* Text color for contrast */
+        text-align: center;
+        height: 10vh;
+        padding: 100px;
+    }
+
+    .parallax3 {
+        background-image: url('bg-3 copy.jpg');
+        background-attachment: fixed; /* This creates the parallax effect */
+        background-size: cover;
+        color: #fff; /* Text color for contrast */
+        text-align: center;
+        height: 40vh;
+        padding: 100px;
+    }
+
+.normal1 {
+    background-color: #f2f2f2; /* Or use a different background color */
+    height: 100vh;
+    color: #000; /* Text color for contrast */
+    text-align: center;
+    padding: 100px;
+}
+
+.normal2 {
+    background-color: #f2f2f2; /* Or use a different background color */
+    height: 100vh;
+    color: #000; /* Text color for contrast */
+    text-align: center;
+    padding: 100px;
+}
+
+.normal3 {
+    background-color: #f2f2f2;  /* Or use a different background color */
+    height: 8vh;
+    color: #000; /* Text color for contrast */
+    text-align: center;
+    padding: 100px;
+}
